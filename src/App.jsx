@@ -1,15 +1,29 @@
+import "./App.css";
 
-import './App.css';
-import Button from './components/Button/Button';
-import LessonCard from './components/LessonCard/LessonCard';
+
+//lessons imports
+import Lesson02 from "./lessons/Lesson02/Lesson02";
+import Lesson03 from "./lessons/Lesson03/Lesson03";
+/* import Lesson03 from "./lessons/Lesson03/Lesson03"; */
+
+//homework imports
+import Homework02 from "./homeworks/Homework02/Homework02";
+/* import LessonCard from "./components/LessonCard/LessonCard"; */
+
+
+//consultation imports
+
 
 function App() {
   return (
     <div className="App">
- <LessonCard/>
- <Button/>
- <Button/>
- </div>
+   
+    {/*   <Lesson02 /> */}
+       <Lesson03/>
+
+    {/*   <Homework02 /> */}
+    
+    </div>
   );
 }
 
